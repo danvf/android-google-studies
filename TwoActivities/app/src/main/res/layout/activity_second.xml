@@ -51,8 +51,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
+        android:hint="@string/editText_second"
         android:inputType="textLongMessage"
-        android:text="@string/editText_second"
         app:layout_constraintBaseline_toBaselineOf="@+id/button_second"
         app:layout_constraintEnd_toStartOf="@+id/button_second"
         app:layout_constraintStart_toStartOf="parent" />
