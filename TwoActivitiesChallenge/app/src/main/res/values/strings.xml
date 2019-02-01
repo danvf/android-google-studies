@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Two Activities Challenge</string>
+    <string name="title">Choose a passage:</string>
+    <string name="first_passage_label">Passage 1</string>
+    <string name="second_passage_label">Passage 2</string>
+    <string name="third_passage_label">Passage 2</string>
+    <string name="first_passage_text">A very, very, very, very, very, very, very, very, very, very, very, very, very, very, very long <b>first</b> passage</string>
+    <string name="second_passage_text">A very, very, very, very, very, very, very, very, very, very, very, very, very, very, very long <b>second</b> passage</string>
+    <string name="third_passage_text">A very, very, very, very, very, very, very, very, very, very, very, very, very, very, very long <b>third</b> passage</string>
+</resources>
