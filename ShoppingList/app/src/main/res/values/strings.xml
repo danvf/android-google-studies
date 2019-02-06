@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">Shopping List</string>
     <string name="button_list_label">+</string>
+    <string name="shopping_list_title_text">Shopping List</string>
+    <string name="item7_text">Item 7</string>
+    <string name="item5_text">Item 5</string>
+    <string name="item8_text">Item 8</string>
+    <string name="item1_text">Item 1</string>
+    <string name="item6_text">Item 6</string>
+    <string name="item9_text">Item 9</string>
+    <string name="item2_text">Item 2</string>
+    <string name="item3_text">Item 3</string>
+    <string name="item4_text">Item 4</string>
+    <string name="item10_text">Item 10</string>
+    <string name="todo">TODO</string>
+    <string name="available_items_label">Available Items</string>
 </resources>
