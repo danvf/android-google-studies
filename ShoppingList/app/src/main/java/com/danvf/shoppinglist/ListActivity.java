@@ -24,6 +24,14 @@ public class ListActivity extends AppCompatActivity {
         buttons[3] = findViewById(R.id.item4_toggle);
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        for (int i = 0; i < 4; i++) {
+            items[i] = false;
+        }
+    }
+
     public void backToMain(View view) {
         Intent goBackIntent = new Intent(this, MainActivity.class);
 

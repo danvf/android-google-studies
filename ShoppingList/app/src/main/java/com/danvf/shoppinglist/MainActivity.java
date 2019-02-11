@@ -30,8 +30,15 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 4; i++) {
             if (items[i]) {
                 texts[i].setVisibility(View.VISIBLE);
+            } else {
+                texts[i].setVisibility(View.INVISIBLE);
             }
         }
+    }
+
+    public void addToList(View view) {
+        Intent intent = new Intent(this, ListActivity.class);
+        startActivityForResult(intent, ITEM_REQUEST);
     }
 
     @Override
@@ -44,8 +51,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void addToList(View view) {
-        Intent intent = new Intent(this, ListActivity.class);
-        startActivityForResult(intent, ITEM_REQUEST);
-    }
 }
