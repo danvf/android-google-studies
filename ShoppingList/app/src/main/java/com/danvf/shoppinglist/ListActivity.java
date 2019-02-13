@@ -14,9 +14,19 @@ public class ListActivity extends AppCompatActivity {
     private static CheckBox[] buttons = new CheckBox[4];
 
     @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putBooleanArray("items", items);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
+
+        if (savedInstanceState != null) {
+            items = savedInstanceState.getBooleanArray("items");
+        }
 
         buttons[0] = findViewById(R.id.item1_toggle);
         buttons[1] = findViewById(R.id.item2_toggle);
