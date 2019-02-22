@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Implicit Intent</string>
+    <string name="button_website_label">open website</string>
+    <string name="button_location_label">open location</string>
+    <string name="button_share_label">share text</string>
+    <string name="edit_website_hint">Insert the website yout want to open</string>
+    <string name="edit_location_hint">Insert the address you want to locate</string>
+    <string name="edit_share_hint">Insert the text you want to share</string>
+    <string name="chooser_title">Share this text with:</string>
+</resources>
