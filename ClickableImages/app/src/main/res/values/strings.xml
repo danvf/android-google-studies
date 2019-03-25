@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Clickable Images</string>
     <string name="action_settings">Settings</string>
+    <string name="donut_content">Donuts are glazed and sprinkled with candy.</string>
+    <string name="donut_order_message"></string>
+    <string name="ice_cream_content">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="ice_cream_order_message"></string>
+    <string name="froyo_content">FroYo is premium self-serve frozen yogurt.</string>
+    <string name="froyo_order_message"></string>
+    <string name="app_title">Droid Desserts</string>
 </resources>
